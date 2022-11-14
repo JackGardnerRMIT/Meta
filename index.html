@@ -1,0 +1,155 @@
+<!-- Header -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Meta</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="assets/favicon.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">
+      <img src="assets/favicon.png" alt="Logo" style="width:40px;" class="rounded-pill">
+    </a>
+  </div>
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Meta</a>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link active" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="comps.html">Comps</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="maps.html">Maps</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="heroes.html">Heroes</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+  
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="assets/comps.png" alt="Comps" class="d-block" style="width:100%">
+      <div class="carousel-caption">
+        <h3>Comps</h3>
+        <p>Find information on all Overwatch 2 comps and how to play them.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="assets/maps.png" alt="Maps" class="d-block" style="width:100%">
+      <div class="carousel-caption">
+        <h3>Maps</h3>
+        <p>Find information on all Overwatch 2 maps and how to play them.</p>
+      </div> 
+    </div>
+    <div class="carousel-item">
+      <img src="assets/heroes.png" alt="Heroes" class="d-block" style="width:100%">
+      <div class="carousel-caption">
+        <h3>Heroes</h3>
+        <p>Find information on all Overwatch 2 heroes and how to play them.</p>
+      </div>  
+    </div>
+  </div>
+  
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+<!-- Content Text -->
+<div class="container mt-5">
+  <h1 style="text-align:center">Content</h1><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <h3 style="text-align:center">Comps</h3>
+      <a class="navbar-brand" href="comps.html">
+        <img src="assets/comps.png" alt="Comps" class="rounded" height="156" width="400">
+      </a>
+      <p style="text-align:center">Find information on all Overwatch 2 comps and how to play them.</p>
+    </div>
+    <div class="col-sm-4">
+      <h3 style="text-align:center">Maps</h3>
+      <a class="navbar-brand" href="maps.html">
+        <img src="assets/maps.png" alt="Maps" class="rounded" height="156" width="400">
+      </a>
+      <p style="text-align:center">Find information on all Overwatch 2 maps and how to play them.</p>
+    </div>
+    <div class="col-sm-4">
+      <h3 style="text-align:center">Heroes</h3>  
+      <a class="navbar-brand" href="heroes.html">
+        <img src="assets/heroes.png" alt="Heroes" class="rounded" height="156" width="400"> 
+      </a>     
+      <p style="text-align:center">Find information on all Overwatch 2 heroes and how to play them.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+
+<br><br>
+  <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+    <div class="container-fluid justify-content-center">
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/favicon.png" alt="Logo" style="width:125px;" class="rounded-pill">
+      </a>
+    </div>
+    <div class="container-fluid justify-content-center">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <h1><a class="nav-link active" href="index.html">Home</a></h1>
+        </li>
+        <li class="nav-item">
+          <h1><a class="nav-link" href="comps.html">Comps</a></h1>
+        </li>
+        <li class="nav-item">
+          <h1><a class="nav-link" href="maps.html">Maps</a></h1>
+        </li>
+        <li class="nav-item">
+          <h1><a class="nav-link" href="heroes.html">Heroes</a></h1>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <nav class="navbar navbar-expand-sm bg-primary navbar-dark justify-content-center">
+    <ul class="pagination justify-content-end">
+      <li class="page-item"><a class="page-link" href="heroes.html">Previous</a></li>
+      <li class="page-item active"><a class="page-link" href="index.html">Home</a></li>
+      <li class="page-item"><a class="page-link" href="comps.html">Comps</a></li>
+      <li class="page-item"><a class="page-link" href="maps.html">Maps</a></li>
+      <li class="page-item"><a class="page-link" href="heroes.html">Heroes</a></li>
+      <li class="page-item"><a class="page-link" href="comps.html">Next</a></li>
+    </ul>
+  </nav>
+
+  <nav class="navbar navbar-expand-sm bg-primary navbar-dark justify-content-center">
+    <p style="color:white;">OVERWATCH® IS THE COPYRIGHTED PRODUCT OF BLIZZARD ENTERTAINMENT, INC. © 2022 BLIZZARD ENTERTAINMENT, INC. ALL RIGHTS RESERVED. META IS NOT AFFILIATED WITH BLIZZARD ENTERTAINMENT, INC.</p>
+  </nav>
+
+</body>
+</html>
